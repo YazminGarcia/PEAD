@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Yazmin Garcia" />
+    <!--Pestaña-->
+    <title>UNIDAD 3 </title>
+    <link rel="stylesheet" href="PRINCIPAL.css">
+</head>
+
+<body>
+    <a name="inicio">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1 id="title3" style="color: black;">ELECTRÓNICA DIGITAL </h1>
+        <div class="div-inicio">
+
+            <a href="index.html" target="_self"> VOLVER AL INICIO</a>
+        </div><br><br><br><br><br>
+        <div class="div-unidades3">
+            <h4 style="font-family: Arial, Helvetica, sans-serif; color: black; font-size: 18px; text-align: center;">
+                TEMARIO
+            </h4>
+            <li>
+                <a href="#3.1" target="_self" id="title4"> 3.1 COMPUERTAS LÓGICAS<br> Y TABLAS DE VERDAD</a>
+            </li><br />
+            <li>
+                <a href="#3.1.1" target="_self" id="title4"> 3.1.1 COMPUERTAS TTL</a>
+            </li><br />
+            <li>
+                <a href="#3.1.2" target="_self" id="title4"> 3.1.2 POSTULADOS Y EXPRESIONES DE
+                    ALGEBRA BOOLEANA</a>
+            </li><br />
+            <li>
+                <a href="#3.2" target="_self" id="title4"> 3.2 TÉCNICAS DE SIMPLIFICACIÓN</a>
+            </li><br />
+            <li>
+                <a href="#3.3" target="_self" id="title4">3.3 METODOLOGÍA DEL DISEÑO</a>
+            </li><br />
+            <li>
+                <a href="#3.3.1" target="_self" id="title4"> 3.3.1 CIRCUITOS COMBINACIONALES</a>
+            </li><br />
+
+            <li>
+                <a href="#3.4" target="_self" id="title4"> 3.4 TEMPORIZADOR (555)</a>
+            </li><br>
+            <li>
+                <a href="#3.5" target="_self" id="title4"> 3.5 LÓGICA SECUENCIAL(FLIP-FLOP)</a>
+            </li><br>
+            <li>
+                <a href="#3.5.1" target="_self" id="title4"> 3.5.1 CIRCUITOS FLIP-FLOP CON COMPUERTAS</a>
+            </li><br>
+            <li>
+                <a href="#3.5.2" target="_self" id="title4"> 3.5.2 TABLAS DE VERDAD</a>
+            </li>
+        </div>
+    </a>
+
+    <p class="centrado">
+        <img src="img/ED.jpg" width="420px">
+
+    </p><br><br>
+    <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+        Se trata de valores de corrientes y tensiones eléctricas que solo pueden poseer dos estados en el transcurso del
+        tiempo. Hay o no hay corriente o tensión pero cuando hay siempre es la misma y cuando no hay siempre es de valor
+        0.
+        <br></p><br>
+    <a name="3.1">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.1 COMPUERTAS LÓGICAS<br> Y TABLAS DE VERDAD
+        </h1>
+
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Las compuertas lógicas son bloques de construcción básica de los sistemas digitales; operan con números
+            binarios, por lo que se les denomina puertas lógicas binarias. En los circuitos digitales todos los
+            voltajes, a excepción de las fuentes de alimentación, se agrupan en dos posibles categorías: voltajes altos
+            y voltajes bajos.<br>
+            Una Tabla de verdad, o Tabla de valores de verdades, es una tabla que muestra el valor de verdad de una
+            proposición compuesta, para cada combinación de verdad que se pueda asignar.
+            </br></p>
+        <p class="centrado">
+            <img src="img/compuertas.png" width="380px">
+
+        </p><br>
+    </a>
+    <a name="3.1.1">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.1.1 COMPUERTAS TTL
+        </h1>
+
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Acrónimo inglés de Transistor-Transistor Logic o Lógica Transistor a Transistor“. Tecnología de construcción
+            de circuitos electrónicos digitales, en los que los elementos de entrada de la red lógica son transistores
+            (dispositivo electrónico semiconductor utilizado para entregar una señal de salida en respuesta a una señal
+            de entrada), así como los elementos de salida del dispositivo.
+            </br></p>
+        <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+            <li>COMPUERTA NOT</li>
+        </h4>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Es una puerta lógica que implementa la negación lógica .
+
+            La función física del inversor, es la de cambiar en su salida el nivel del voltaje de su entrada entre los
+            definidos como lógico ALTO Y lógico BAJO.
+        </p>
+        <p class="centrado">
+            <img src="img/not.png" width="280px"><br>
+            <a href="https://www.youtube.com/watch?v=1tWdfViRqBY" target="_blank">Práctica</a>
+
+        </p>
+        <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+            <li>COMPUERTA OR </li>
+        </h4>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Implementa la disyunción lógica.
+
+            La salida X es igual a 0 cuando la entrada A y la entrada B son 0
+        </p>
+        <p class="centrado">
+            <img src="img/or.jpg" width="280px"><br>
+            <a href="https://www.youtube.com/watch?v=SAXgzgLoCnE" target="_blank">Práctica</a>
+
+        </p>
+        <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+            <li>COMPUERTA NAND </li>
+        </h4>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Produce una salida falsa solamente si todas sus entradas son verdaderas.
+
+            La salida X es igual a 0 cuando la entrada A y la entrada B son 1.
+        </p>
+        <p class="centrado">
+            <img src="img/nand.jpg" width="280px"><br>
+            <a href="https://www.youtube.com/watch?v=8gHhdfF2Ceo" target="_blank">Práctica</a>
+
+        </p><br>
+    </a>
+    <a name="3.1.2">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.1.2 POSTULADOS Y <br> EXPRESIONES DE ALGEBRA BOOLEANA
+        </h1>
+
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Un álgebra de Boole es toda clase o conjunto de elementos que pueden tomar dos valores perfectamente
+            diferenciados, que designaremos por 0 y 1 y que están relacionados por dos operaciones binarias denominadas
+            suma (+) y producto (.) (la operación producto se indica en general simplemente mediante la ausencia de
+            símbolo entre dos variables) lógicos.<br>
+            a) Ambas operaciones son conmutativas, es decir, si a y b son elementos del álgebra, se verifica:<br>
+            <p class="centrado"> a + b = b + a a . b = b . a<br></p>
+            <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+                b) Dentro del álgebra existen dos elementos neutros, el 0 y el 1, que cumplen la propiedad de identidad
+                con
+                respecto a cada una de dichas operaciones:<br>
+            <p class="centrado">0 + a = a 1 . a = a<br></p>
+        </p>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            c) Cada operación es distributiva con respecto a la otra:<br>
+            <p class="centrado">>a . (b + c) = a . b + a . c a + (b . c) = (a + b) . (a + c)<br></p>
+            <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+                d) Para cada elemento, a, del álgebra existe un elemento denominado, ā , tal que:<br>
+            <p class="centrado"> a + ā = 1 a . ā = 0<br></p>
+            </br>
+        </p>
+        <p class="centrado">
+            <img src="img/TPAB.jpg" width="400px">
+
+        </p><br>
+    </a>
+    <a name="3.2">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.1.2 TÉCNICAS DE SIMPLIFICACIÓN
+        </h1><br>
+        <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+            <li>SIMPLIFICACION DE CIRCUITOS LÓGICOS: </li>
+        </h4>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Una vez que se obtiene la expresión booleana para un circuito lógico, podemos reducirla a una forma más
+            simple que contenga menos términos, la nueva expresión puede utilizarse para implantar un circuito que sea
+            equivalente al original pero que contenga menos compuertas y conexiones. <br>
+        </p>
+    </a>
+    <a name="3.3">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.3 METODOLOGÍA DE DISEÑO
+        </h1>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            • Enunciar el problema<br>
+
+            • Determinar el número requerido de variables de entrada y el número requerido de variables de salida.<br>
+
+            • Asignar letras a las variables de entrada y a las de salida.<br>
+
+            • Deducir la tabla de verdad que define las relaciones entre las entradas y las salidas.<br>
+
+            • Obtener la(s) función(es) de Boole simplificada(s) (utilizando el álgebra de Boole, Mapas de Karnaugh u
+            cualquier otro) para cada salida.<br>
+
+            • Dibujar el diagrama lógico.<br>
+
+            • Dibujar el diagrama eléctrico (opcional).<br>
+
+            Procedimiento de circuitos combinacionales.<br>
+
+            • Para n variable de entrada, hay 2 n combinacionales posibles de valores de los valores binarios de
+            entrada.<br>
+
+            • Para cada combinación posible de entrada, hay una y sólo una combinación de salida posible.<br>
+
+            • Un circuito combinacional puede describirse por m funciones de Boole.<br>
+
+            • Cada función de salida se expresa en términos de n variables de entrada<br>
+        </p>
+    </a>
+    <a name="3.3.1">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.3.1 CIRCUITOS COMBINACIONALES
+        </h1>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Circuito combinacional. Está formado por funciones lógicas elementales ( AND, OR, NAND, NOR, etc. ), que
+            tiene un determinado número de entradas y salidas. Es un circuito cuya salida depende solamente de la
+            "combinación" de sus entradas en el momento que se está realizando la medida en la salida.
+
+            Los circuitos de lógica combinacional son hechos a partir de las compuertas básicas compuerta AND, compuerta
+            OR, compuerta NOT. También pueden ser construidos con compuertas NAND, compuertas NOR, compuerta XOR, que
+            son una combinación de las tres compuertas básicas.
+        </p>
+        <p class="centrado">
+            <img src="img/combinacional.jpg" width="350px"><br>
+            <a href="https://www.youtube.com/watch?v=pC2Hh9OAkI0" target="_blank">Práctica</a>
+        </p>
+    </a>
+
+    <a name="3.4">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.4 TEMPORIZADOR(555)
+        </h1>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            El temporizador IC 555 es un circuito integrado (chip) que se utiliza en la generación de temporizadores,
+            pulsos y oscilaciones. El 555 puede ser utilizado para proporcionar retardos de tiempo, como un oscilador, y
+            como un circuito integrado flip flop.
+        </p>
+        <p class="centrado">
+            <img src="img/555.gif" width="350px"><br>
+            <a href="https://www.youtube.com/watch?v=NolTdvGbnuU" target="_blank">Práctica</a>
+
+        </p>
+    </a>
+    <a name="3.5">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.5 LÓGICA SECUENCIAL(FLIP-FLOP)
+        </h1>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            En los Circuitos Secuenciales las salidas dependen de la conducta anterior del circuito, así como de los
+            valores presentes en las entradas.<br>
+
+            Es decir la lógica secuencial tiene almacenaje (memoria) .
+
+        </p>
+        <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+            <li>Flip-Flop: </li>
+        </h4>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Los biestables son el primer eslabón de componentes para la memorización de datos. Es un multivibrador capaz
+            de permanecer en uno de dos estados posibles durante un tiempo indefinido en ausencia de perturbaciones.
+        </p>
+        <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+            <li>TIPOS: </li>
+        </h4>
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            El paso de un estado a otro se realiza variando sus entradas. Dependiendo del tipo de dichas entradas los
+            biestables se dividen en:<br>
+
+            • Asíncronos: Sólo tienen entradas de control. El más empleado es el biestable RS.<br>
+            • Síncronos: Además de las entradas de control posee una entrada de sincronismo o de reloj.<br>
+        </p><br>
+    </a>
+    <a name="3.5.1">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.5.1 CIRCUITOS FLIP-FLOP CON COMPUERTAS
+        </h1>
+
+        <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+            Un biestable puede usarse para almacenar un bit. La información contenida en muchos biestables puede
+            representar el estado de un secuenciador, el valor de un contador, un carácter ASCII en la memoria de un
+            ordenador, o cualquier otra clase de información.<br>
+
+            Ffrs (reset/set):<br>
+
+            Sólo posee las entradas R y S. Se compone internamente de dos puertas lógicas NAND o NOR.<br><br>
+
+            Ffd (delay/data):<br>
+
+            El flip-flop D resulta muy útil cuando se necesita almacenar un único bit de datos (1 o 0).<br><br>
+
+            Fft (toggle):<br>
+
+            •Dispositivo de almacenamiento temporal de 2 estados (alto y bajo). El biestable T cambia de estado
+            (“toggle”) cada vez que la entrada de sincronismo o de reloj se dispara mientras la entrada T está a nivel
+            alto. Si la entrada T está a nivel bajo, el biestable retiene el nivel previo.<br><br>
+
+            ffjk:<br>
+
+            •Es versátil y es uno de los tipos de flip-flop más usados. Su funcionamiento es idéntico al del flip-flop
+            S-R en las condiciones SET, RESET y de permanencia de estado. La diferencia está en que el flip-flop J-K no
+            tiene condiciones no válidas como ocurre en el S-R.
+        </p><br>
+        <p class="centrado">
+            <img src="img/flip-flop.jpg" width="300px">
+
+        </p>
+    </a>
+    <a name="3.5.2">
+        <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 25px; color: cornsilk; text-align: center;">
+            3.5.2 TABLAS DE VERDAD
+        </h1>
+    </a>
+    <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+        Una Tabla de verdad, o Tabla de valores de verdades, es una tabla que muestra el valor de verdad de una
+        proposición compuesta, para cada combinación de verdad que se pueda asignar.
+    </p>
+    <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+        <li>TIPO FF JK </li>
+    </h4>
+    <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+        Es uno de los más usados en los circuitos digitales, y de hecho es parte fundamental de muchos circuitos
+        avanzados como contadores y registros de corrimiento, que ya vienen integrados en un chip. Este FF cuenta con
+        dos entradas de datos J y K, su función es en principio la misma que el Registro básico NAND o NOR, pero con la
+        diferencia que la condición en las entradas J = 1, K = 1, a diferencia del Registro NAND, que generaría una
+        salida errónea o no deseada, en un FF J-K, obliga a las salidas a conmutar su estado al opuesto (Toggle) a cada
+        pulso del reloj. Esto lo convierte en un tipo de FF muy versátil.
+    </p>
+    <p class="centrado">
+        <img src="img/jk.png" width="300px">
+
+    </p>
+    <h4 style="width: 400px; padding-left: 350px; color: red; font-family: Arial">
+        <li>TIPO FF SR </li>
+    </h4>
+    <p style="width: 820px; padding-left: 350px; font-family: cambria; font-size: 20px; text-align: justify;">
+        Tiene tres entradas, S (de inicio), R (reinicio o borrado) y C (para reloj). Tiene una salida Q, y a veces
+        también una salida complementada, la que se indica con un circulo en la otra terminal de salida. Hay un pequeño
+        triángulo en frente de la letra C, para designar una entrada dinámica.<br> El símbolo indicador dinámico denota el
+        echo de que el flip-flop responde a una transición positiva ( de 0 a 1) de la señal de reloj. Su unidad básica
+        (con compuertas NAND o NOR) se dibuja a continuación que, como actúa por "niveles" de amplitud (0-1) recibe el
+        nombre de Flip-Flop RS activado por nivel (FF-RS-AN). Cuando no se especifica este detalle es del tipo Flip-Flop
+        RS maestro- esclavo (FF-RS-ME). Sus ecuaciones y tabla de funcionamiento son:<br> Q = S + q R* <br>R S = 0
+    </p>
+    <p class="centrado">
+        <img src="img/sr.PNG" width="300px">
+
+    </p><br>
+</body>
+
+</html>
